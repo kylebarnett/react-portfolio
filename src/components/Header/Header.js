@@ -5,7 +5,7 @@ import './Header.css';
 export default function Header() {
 
   function changeUnderline(e) {
-    e.target.style.color = 'red';
+    e.target.style.color = 'white';
   }
   function changeBack(e) {
     e.target.style.color = 'black';
