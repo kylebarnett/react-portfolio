@@ -1,0 +1,16 @@
+h1 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+p {
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 20px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.home-container {
+  overflow-x: hidden;
+}
