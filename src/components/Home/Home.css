@@ -11,6 +11,40 @@ img {
   border-radius: 50%;
 }
 
+@media (max-width: 700px){
+  img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
 .home-container {
   overflow-x: hidden;
+}
+
+.home-top {
+  margin: 0px 50px 50px 50px;
+}
+
+.home-description {
+  border: 2px solid black;
+  padding: 25px;
+}
+
+footer > p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.home-bottom > .icon-container > img {
+  height: 100px;
+  width: 100px;
+}
+
+.icon-container {
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
