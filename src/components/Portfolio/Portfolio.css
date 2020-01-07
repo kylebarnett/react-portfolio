@@ -2,9 +2,57 @@
   background-color: #A0CECB;
 }
 
+.portfolio-top {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-top > img {
+  height: auto;
+  width: 50%;
+}
+
+.portfolio-top > p {
+  /* border: 2px solid black; */
+  padding: 10px;
+}
+
+.portfolio-middle {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-middle > img {
+  height: auto;
+  width: 50%;
+}
+
+.portfolio-middle > p {
+  /* border: 2px solid black; */
+  padding: 10px;
+}
+
 .portfolio-bottom {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-bottom > img {
+  height: auto;
+  width: 50%;
+}
+
+.portfolio-bottom > p {
+  /* border: 2px solid black; */
+  padding: 10px;
+}
+
+/* .portfolio-bottom {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-}
+} */

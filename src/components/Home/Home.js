@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <div className="home-container">
       <section className="home-top">
-        <Typist cursor={{ show: false }}><h1>Hi, my name is Kyle!</h1>
+        <Typist cursor={{ show: false }}><h1>Hi, my name is Kyle Barnett!</h1>
           <p>Full-Stack Web Developer based in Salt Lake City.</p></Typist>
         <p className="home-description">I believe in creating simple applications that are pleasing to the eye. In today's day and age, we are constantly bombarded with information overload. In my opinion, the simpler, the better. I'm a curious individual with a passion for learning new technologies. A big focus of mine, currently, is blockchain technology and how it could shape the future.</p>
-        <img src={headshot} alt="headshot" />
+        <img className="headshot" src={headshot} alt="headshot" />
       </section>
       <section className="home-bottom">
         <h1>Skills</h1>
