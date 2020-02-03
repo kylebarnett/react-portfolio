@@ -11,7 +11,6 @@ export default function Portfolio() {
       <section className="portfolio-top">
         <p className="top-paragraph">One of our first projects at Lambda School was to build a simple landing page using HTML and CSS. We utilized the powers of flexbox to position all the content nicely. As simple as this project is, seeing your first project come alive was a great feeling.</p>
         <img src={lambda} alt="first-project" />
-        <p className="top-code">View Code</p>
       </section>
       <section className="portfolio-middle">
         <img src={coinpicture} alt="coin-picture"/>
